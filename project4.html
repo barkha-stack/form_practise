@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form_Practise</title>
+</head>
+<body>
+    <header>
+    <h1>Build your Resume carefully </h1>
+    <nav>
+        <ol type="i">
+            <li ><a href = "#Course">Course</a>></li>
+            <li> <a href = "#Programming Language">Programming Languages</a></li>
+            <li> <a href = "#Form">Form</a></li>
+            <li> <a href = "#link">Link</a></li>
+        </ol>
+    </nav>
+    
+        <table border="1" id ="Programming Language">
+            <caption> Programming Languages </caption>
+            <tr>
+                <th colspan="4"> These Languages consist of all oops concept </th></tr>
+               <tr> <th>Languages</th>
+                <th>Proficieny</th>
+                <th>Experience</th>
+                <th>Projects</th>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Intermediate</td>
+                <td>2</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Java</td>
+                <td>Intermediate</td>
+                <td>2</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Expertise</td>
+                <td>1</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Golang</td>
+                <td>Intermediate</td>
+                <td>2</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>Artifical Intelligance</td>
+                <td>Expertise</td>
+                <td>3</td>
+                <td>5</td>
+            </tr>
+        </table>
+
+            <h1 id ="Form"> Enter your details below </h1>
+            <form action="/self.php">
+                <label for="email">UserName</label>
+                <input type="text" name="Username" id="email" required = "True" placeholder="email"><br>
+                <label for="password">UserPassword</label>
+                <input type="password" name="password" id="password",required = "True"><br>
+                <label for="date">Date</label>
+                <input type="Date" name = "Date" id="date" >
+                <p>Gender <br>
+                <label for="Female"> Female </label>
+                <input type="radio" name="Gender" id="Female"><br>
+                <label for="male"> male </label>
+                <input type="radio" name="Gender" id="male"><br>
+                <label for="Other"> Other </label>
+                <input type="radio" name="Gender" id="Other"></p><br>
+                <label for = "Course">Stream</label>
+                <select id="Course" name="Course"><br>
+                    <option data="Select">Select</option>
+                    <option data="Computer Science" >Computer Science</option>
+                    <option data="IT" >IT</option>
+                    <option data="AI">Atrifical Intelligance</option>
+                    <option data="Ethical Hacking" >Ethical Hacking</option>
+                    <option data="Machine Learning" >Machine Learning</option>
+                
+                </select><br>
+                <label for="Python">Python</label>
+                <input type="checkbox" name="Python" id="Python"><br>
+                <label for="HTML">HTML</label>
+                <input type="checkbox" name="HTML" id="HTML"><br>               
+                <label for="Java">Java</label>
+                <input type="checkbox" name="Java" id="Java"><br>
+                <label for="JavaScript">JavaScript</label>
+                <input type="checkbox" name="JavaScript" id="JavaScript"><br>
+                <label for="PSQL">PSQL</label>
+                <input type="checkbox" name="PSQL" id="PSQL"><br>
+
+
+                
+                <label for="range">Select Range as per your Proficienyin language</label>
+                <input type="range" name="" id=""><br>
+                <textarea rows = "5" cols="60">Why should we have a coffee with you?</textarea><br>
+                <label for="Submit"></label>
+                <input type="submit" name="Submit" id="submit"><br><br>
+                <footer id ="link">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5pf0_bpNbkw?si=Q2Dhce8x_l4PBizi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </footer>
+            
+            </form>
+
+        </table>
+    </section>
+
+</header>
+
+</body>
+</html>
